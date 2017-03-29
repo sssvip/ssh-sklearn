@@ -8,6 +8,7 @@ RUN apt-get install -y build-essential
 RUN pip install numpy
 RUN pip install scipy
 RUN pip install scikit-learn
+RUN pip install matplotlib
 
 RUN apt-get install -y openssh-server  
 RUN mkdir /var/run/sshd  
